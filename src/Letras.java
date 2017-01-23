@@ -1,23 +1,13 @@
-
-package letras_st;
 import java.util.Scanner;
-
 public class Letras {
 
 
-    public static void main(String[] args) {
+    public void letra(String entradaTeclado) {
 
         int cub[];
         char a;
         int b;
         cub = new int[30];
-
-
-        Scanner entradaEscaner = new Scanner (System.in);
-
-        String  entradaTeclado = entradaEscaner.nextLine();
-
-
         for( int i=0; i < entradaTeclado.length(); i++)
         {
             if(entradaTeclado.charAt(i)!=32)
@@ -64,3 +54,7 @@ public class Letras {
 
 
 }
+
+
+
+
